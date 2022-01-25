@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scroll.js" defer></script>
+    <script src="js/burger.js" defer></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="big-container">
+
+        <header class="header">
+            <div class="container">
+                <nav class="header__menu">
+                    <div class="header__menu-burger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#about">
+                                Обо мне
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#skills">
+                                Навыки и умения
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#portfolio">
+                                Портфолио
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#contacts">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="preabout">
+            <div class="container">
+                <div class="preabout__wrapper">
+                    <h1 class="preabout__title">
+                        Роман Кулеш
+                    </h1>
+                    <p class="preabout__text">
+                        Начинающий Frontend разработчик
+                        <br>
+                        27 лет, Минск
+                    </p>
+                </div>
+                <img class="preabout__img" src="images/2.jpg" alt="фото">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about__title title">
+                    Обо мне
+                </h2>
+                <p class="about__text">
+                    Меня зовут Роман, я начинающий Frontend разработчик.
+                </p>
+                <p class="about__text">
+                    Я окончил колледж по специальности техник-программист. После этого я немного поработал по специальности и затем отслужил в армии. 
+                </p>
+                <p class="about__text">
+                    Позже я работал на работах, не связанных с программированием. Однако я очень увлекся вёрсткой и окончил курс "Верстка сайта. От 0 до 1".
+                </p>
+                <p class="about__text">
+                    Моим следующим шагом были курсы по фронтенд-разработке в RSSchool, на которых я значительно повысил свои знания в JavaScript.
+                </p>
+                <p class="about__text">
+                    Все эти шаги помогли мне найти работу около IT, где я продолжаю своё развитие как фронтенд-разработчик.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills__title title">
+                    Навыки и умения
+                </h2>
+                <div class="slills__images">
+                    <img class="skills__img" src="images/html1.png" alt="skills img">
+                    <img class="skills__img" src="images/css1.png" alt="skills img">
+                    <img class="skills__img" src="images/sass1.png" alt="skills img">
+                    <img class="skills__img" src="images/js1.png" alt="skills img">
+                    <img class="skills__img" src="images/english.png" alt="skills img">
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title title">
+                    Портфолио
+                </h2>
+                <div class="portfolio__wrapper">
+                    <div class="portfolio__slider">
+                        <div class="portfolilo__slider-item">
+                            <a href="https://ku13shov.github.io/ActiveBox/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/active.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/active-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Лендинг Active Box
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://ku13shov.github.io/MoGo/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/mogo.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/mogo-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Лендинг MoGo
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://ku13shov.github.io/MiGlobalHome/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/testovoe.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/testovoe-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Тестовое задание mi.by
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://ku13shov.github.io/aim-training/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/aim.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/aim-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Игра Aim Training
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://ku13shov.github.io/slider-template/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/slider.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/slider-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Проект Slider
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://ku13shov.github.io/cards/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/cards.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/cards-mobi.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Проект Cards
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://rolling-scopes-school.github.io/ku13shov-JS2020Q3/momentum/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/momentum.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/momentum-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Проект Momentum
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://rolling-scopes-school.github.io/ku13shov-JSFE2021Q1/virtual-piano/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/piano.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/piano-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Проект Virtual Piano
+                                </p>
+                            </a>
+                        </div>
+                        <div class="portfolilo__slider-item">
+                            <a href="https://rolling-scopes-school.github.io/ku13shov-JSFE2021Q1/photo-filter/" target="_blank">
+                                <img class="portfolilo__slider-img desc" src="images/filter.jpg" alt="portfolio image">
+                                <img class="portfolilo__slider-img mobi" src="images/filter-mob.jpg" alt="portfolio image">
+                                <p class="portfolilo__slider-text">
+                                    Проект Photo Filter
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="contacts__title title">
+                    Контакты
+                </h2>
+                <div class="contacts__icons">
+                    <a href="tel:+375295532468">
+                        <img class="contacts__icons-img" src="images/phone.png" alt="contacts icons">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ku13shov/" target="_blank">
+                        <img class="contacts__icons-img" src="images/in.png" alt="contacts icons">
+                    </a>
+                    <a href="https://www.codewars.com/users/ku13shov" target="_blank">
+                        <img class="contacts__icons-img" src="images/codewars.png" alt="contacts icons">
+                    </a>
+                    <a href="https://github.com/ku13shov" target="_blank">
+                        <img class="contacts__icons-img" src="images/github.png" alt="contacts icons">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
